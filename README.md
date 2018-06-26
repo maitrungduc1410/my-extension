@@ -1,6 +1,8 @@
 # my-extension
 
-> This is my project to create Chrome extension using VueJS
+> This is my project to create Chrome extension using VueJS. 
+
+If you want to know how to build it see my [blog](https://viblo.asia/p/viet-chrome-extension-bang-vuejs-Ljy5VoVjKra) (Vietnamese, sorry if it's not your native languague)
 ## Setup
 To test the extension first you need to run this command to build project:
 ```bash
