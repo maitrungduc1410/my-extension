@@ -1,0 +1,46 @@
+{
+  "name": "My first extension",
+  "short_name": "Extension VueJS",
+  "description": "This is my first extension written in VueJS",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon-19.png",
+      "38": "images/icon-38.png"
+    },
+    "default_title": "Hello this is my extension",
+    "default_popup": "index.html"
+  },
+  "omnibox": {
+        "keyword": "hello"
+    },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": [
+    "bookmarks",
+    "clipboardRead",
+    "clipboardWrite",
+    "commands",
+    "contentSettings",
+    "contextMenus",
+    "cookies",
+    "debugger",
+    "declarativeContent",
+    "history",
+    "management",
+    "notifications",
+    "pageCapture",
+    "proxy",
+    "tabCapture",
+    "tabs",
+    "topSites",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
