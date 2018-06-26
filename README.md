@@ -1,13 +1,19 @@
 # my-extension
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
+> This is my project to create Chrome extension using VueJS
+## Setup
+To test the extension first you need to run this command to build project:
+```bash
 # install dependencies
 npm install
-
+# build project
+npm run build
+```
+Then you should open List Chrome Extension in your browser, then you drag and drop folder `dist` into the browser.
+Now your extension is available on your browser, play around with it :)
+## Build Setup
+Beside running as a extension the project is absolutely run like usual web app
+``` bash
 # serve with hot reload at localhost:8080
 npm run dev
 
