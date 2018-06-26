@@ -3,7 +3,7 @@
 > This is my project to create Chrome extension using VueJS. 
 
 If you want to know how to build it see my [blog](https://viblo.asia/p/viet-chrome-extension-bang-vuejs-Ljy5VoVjKra) (Vietnamese, sorry if it's not your native languague)
-## Setup
+## Build Setup (for extension)
 To test the extension first you need to run this command to build project:
 ```bash
 # install dependencies
@@ -13,7 +13,7 @@ npm run build
 ```
 Then you should open List Chrome Extension in your browser, then you drag and drop folder `dist` into the browser.
 Now your extension is available on your browser, play around with it :)
-## Build Setup
+## Build Setup (for running as web app)
 Beside running as a extension the project is absolutely run like usual web app
 ``` bash
 # serve with hot reload at localhost:8080
