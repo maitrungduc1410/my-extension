@@ -13,6 +13,8 @@ npm run build
 ```
 Then you should open List Chrome Extension in your browser, then you drag and drop folder `dist` into the browser.
 Now your extension is available on your browser, play around with it :)
+
+- If you want to change code go to folder `src`
 ## Build Setup (for running as web app)
 Beside running as a extension the project is absolutely run like usual web app
 ``` bash
